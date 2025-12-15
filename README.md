@@ -1,4 +1,4 @@
-# Project
+# Portfolio
 This repository contains past projects, including Data Analyst (SQL, Python), Data Visualization, and IoT SMART Manufacturing
 
 # [Project 1: E-Commerce data insights analysist using MySQL]
