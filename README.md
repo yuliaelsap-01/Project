@@ -1,16 +1,20 @@
 # Portfolio
 This repository contains various past projects, including Data Analyst (SQL, Python), Data Visualization, and IoT SMART Manufacturing
 
-# [Project 1: E-Commerce data insights analysist using MySQL]
-This is a project I did on MySkill Final Project course.
-The study cases include:
-- The month with the highest transaction volume in 2021
-- The highest transaction volume by category in 2022
-- Comparison of transactions by category between 2021 and 2022
-- Top 5 most widely used payment methods
-- Transaction value ranking by category
+# [Project 1: E-Commerce Sales Analysis using MySQL]
+
+### Project Overview
+This data analysis project aims to provide insights into the sales performance of an e-commerce company. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+
+### Data Sources
+
+### Tools
+
+- My SQL - Data Analysis [Download here](..)
+- Looker - Creating reports
 
 
-# [Project 2: E-Commerce data insights analysist using Python]
+
+# [Project 2: E-Commerce data insights analysis using Python]
 
 # [Project 3: E-Commerce data visualization using Looker]
