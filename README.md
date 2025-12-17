@@ -6,7 +6,7 @@ This repository contains various past projects, including Data Analyst (SQL, Pyt
 
 ### Project Overview
 
-This data analysis project aims to provide insights into the sales performance of an e-commerce company. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project utilized MySQL to evaluate data on e-commerce transactions from 2021 to 2022. The goal is to provide recommendations on marketing budget and business insights.
 
 ### Data Sources
 
