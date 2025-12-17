@@ -65,4 +65,3 @@ The analysis results are summarized as follows:
 
 # [Project 2: E-Commerce data insights analysis using Python]
 
-# [Project 3: E-Commerce data visualization using Looker]
