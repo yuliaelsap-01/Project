@@ -10,7 +10,7 @@ This data analysis project aims to provide insights into the sales performance o
 
 ### Tools
 
-- My SQL - Data Analysis [Download here](..)
+- My SQL - Data Analysis [Download here](https://drive.google.com/file/d/1DzOBgRRmndQKHTkx2N9KfLaENbpVhw-2/view?usp=sharing)
 - Looker - Creating reports
 
 
