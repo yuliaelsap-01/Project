@@ -10,15 +10,19 @@ This data analysis project aims to provide insights into the sales performance o
 
 ### Data Sources
 
-Order data: The primary dataset used for this analysis is the "order_detail.csv" file, containing detailed sales information.
-Payment data: The sub-dataset used for this analysis is the "payment_detail.csv" file, containing information about payment methods used in transactions.
-Customer data: The sub-dataset used for this analysis is the "customer_detail.csv" file, containing customer IDs and customer registration dates.
-SKU (Stock-Keeping Unit): The sub-dataset used for this analysis is the "sku_detail.csv" file, containing detailed product prices and cost details.
+- Order data: The primary dataset used for this analysis is the "order_detail.csv" file, containing detailed sales information.
+- Payment data: The sub-dataset used for this analysis is the "payment_detail.csv" file, containing information about payment methods used in transactions.
+- Customer data: The sub-dataset used for this analysis is the "customer_detail.csv" file, containing customer IDs and customer registration dates.
+- SKU (Stock-Keeping Unit): The sub-dataset used for this analysis is the "sku_detail.csv" file, containing detailed product prices and cost details.
 
 ### Tools
 
-- My SQL - Data Cleaning
-- My SQL - Data Analysis [Download here](https://drive.google.com/file/d/1DzOBgRRmndQKHTkx2N9KfLaENbpVhw-2/view?usp=sharing)
+- Excel - Data Cleaning
+  [Order data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/order_detail.csv)
+  [Payment data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/payment_detail.csv)
+  [Customer data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/customer_detail.csv)
+  [SKU data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/sku_detail.csv)
+- MySQL - Data Analysis
 - Looker - Creating reports
 
 ### Data Cleaning/Preparation
@@ -49,7 +53,13 @@ Include some interesting code/features worked with
 SELECT * FROM case_1;
 ```
 
+### Results/Findings
 
+The analysis results are summarized as follows:
+1. Overall, transaction trends have steadily increased from mid-year to the end of the year, with a noticeable surge starting in July 2021.
+2. In August 2021, total transactions reached Rp 227,862,744.00, marking the peak of sales for that year.
+3. The Mobiles & Tablets category ranked first as the category with the highest total transaction value in 2022, amounting to Rp 918,451,576.00.
+4. 
    
 
 
