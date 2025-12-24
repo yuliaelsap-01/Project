@@ -8,7 +8,7 @@ This repository contains various past projects, including Data Analyst (SQL, Pyt
 
 - [Project Overview](#project-overview)
 - [Recommendations](#recommendations)
-- [Data Sources](#data-sources).
+- [Data Sources](#data-sources)
 
 ### Project Overview
 
