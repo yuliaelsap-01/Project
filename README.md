@@ -16,15 +16,17 @@ This data analysis project utilized MySQL to evaluate data on e-commerce transac
 
 ### Data Sources
 
-- Order data: The primary dataset used for this analysis is the "order_detail.csv" file, containing detailed sales information.
-- Payment data: The sub-dataset used for this analysis is the "payment_detail.csv" file, containing information about payment methods used in transactions.
-- Customer data: The sub-dataset used for this analysis is the "customer_detail.csv" file, containing customer IDs and customer registration dates.
-- SKU (Stock-Keeping Unit): The sub-dataset used for this analysis is the "sku_detail.csv" file, containing detailed product prices and cost details.
+- Order data: The primary dataset used for this analysis is the "order_detail.txt" file, containing detailed sales information.
+- Payment data: The sub-dataset used for this analysis is the "payment_detail.txt" file, containing information about payment methods used in transactions.
+- Customer data: The sub-dataset used for this analysis is the "customer_detail.txt" file, containing customer IDs and customer registration dates.
+- SKU (Stock-Keeping Unit): The sub-dataset used for this analysis is the "sku_detail.txt" file, containing detailed product prices and cost details.
 
 ### Tools
 
 - Excel - Data Cleaning
-  [Order data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/order_detail.csv)
+  [Order data]([Uploading Order_detail.txt…]()
+)
+
   [Payment data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/payment_detail.csv)
   [Customer data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/customer_detail.csv)
   [SKU data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/sku_detail.csv)
