@@ -7,6 +7,8 @@ This repository contains various past projects, including Data Analyst (SQL, Pyt
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Recommendations](#recommendations)
+- [Data Sources](#data-sources).
 
 ### Project Overview
 
@@ -73,6 +75,10 @@ Based on the analysis, we recommend the following actions:
 2. Plan inventory and SKUs based on sales trends by model and capacity to ensure product availability during peak demand.
 3. Evaluate the performance and market trends of physical books.
 4. Improve the user experience (UX) of e-wallet applications.
+
+### Limitations
+
+In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the sku_name column do not include the brand name “Apple,” which should be considered during data processing.
    
 
 
