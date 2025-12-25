@@ -26,7 +26,7 @@ This data analysis project utilized MySQL to evaluate data on e-commerce transac
 - Excel - Data Cleaning
   [Order detail](https://github.com/user-attachments/files/24330793/Order_detail.csv)
   [Payment data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/payment_detail.csv)
-  [Customer detail](Customer_detail.csv)
+  [Customer detail](https://github.com/yuliaelsap-01/Project/blob/b21ee36e9e8bc2d1c90b059ae0f994c4df06a3da/Customer_detail.csv)
   [SKU data](https://raw.githubusercontent.com/dataskillsboost/FinalProjectDA11/main/sku_detail.csv)
 - MySQL - Data Analysis
 - Looker - Creating reports
