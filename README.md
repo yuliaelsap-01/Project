@@ -209,15 +209,19 @@ df.dtypes
 ### Results/Findings
 
 1. Berikut hasil penjualan tertinggi TOP 5 pada kategori mobile & tablets
+   
 ![Jawaban Python 1 2](https://github.com/user-attachments/assets/9bc3d833-62b2-4df0-a494-28955d8a7dfe)
 
 2. Berikut data TOP20 nama produk yang mengalami penurunan tertinggi pada 2022 jika dibandingkan dengan 2021
+   
 ![Jawaban Python 2](https://github.com/user-attachments/assets/00b0204f-ff33-455a-9070-0c3d2fa90e98)
 
 3. Data ID Customer dan Registered Date pelanggan yang akan diberikan informasi promo
+   
 ![Jawaban Python 3](https://github.com/user-attachments/assets/0f81319b-a248-410a-8ba6-724f07f435ac)
 
 4. Berikut grafik hasil campaign rata-rata harian weekends vs rata-rata harian weekdays
+   
 ![Jawaban Python 4 1](https://github.com/user-attachments/assets/e80c64d1-50c3-49bc-9963-d80f8cd1f6d0)
 
 
