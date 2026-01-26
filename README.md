@@ -93,7 +93,7 @@ In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the s
 
 ### Project Overview
 
-Project ini merupakan project data analyst dengan bahasa python menggunakan aplikasi Looker untuk mengevaluasi data dari bisnis e-commerce.
+Project ini merupakan project data analyst dengan bahasa python menggunakan aplikasi Google Colab untuk mengevaluasi data dari bisnis e-commerce.
 
 ### Data Sources
 
@@ -132,5 +132,19 @@ registered_date	|object| tanggal pelanggan mulai mendaftarkan diri sebagai anggo
 **payment_detail:**
 id			|int64| angka unik dari metode pembayaran
 payment_method	|object| metode pembayaran yang digunakan
+
+### Data Cleaning/Preparation
+
+Berikut langkah-langkah yang dilakukan untuk Data Cleaning/Data Preparation pada data tersebut:
+1. Memanggil fungsi library
+```sql
+
+import pandas as pd -- untuk Memanipulasi Data
+import numpy as np -- untuk Operasi Numerik
+import matplotlib.pyplot as plt -- untuk membuat visualisasi dasar
+import seaborn as sns -- untuk membuat visualisasi statistik, memudahkan data analysis
+from pandas.tseries.offsets import BDay -- untuk operasi tanggal berbasis hari kerja, mengabaikan weekend
+
+```
 
 
