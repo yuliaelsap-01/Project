@@ -63,6 +63,11 @@ SELECT * FROM case_1;
 
 ### Results/Findings
 
+
+![Quantity and Customer by Category](https://github.com/user-attachments/assets/2dfe357a-7917-4dba-ba7c-93d151065dfe)
+![Total Transactions by Payment Method](https://github.com/user-attachments/assets/2a73c511-5ccf-4aae-ae0c-b3196c151b7d)
+
+
 The analysis results are summarized as follows:
 1. Overall, transaction trends have steadily increased from mid-year to the end of the year, with a noticeable surge starting in July 2021.
 2. In August 2021, total transactions reached Rp 227,862,744.00, marking the peak of sales for that year.
@@ -84,5 +89,48 @@ In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the s
    
 
 
-# [Project 2: E-Commerce data insights analysis using Python]
+# [Project 2: E-Commerce data insights analysis using Python] (in Bahasa Indonesia)
+
+### Project Overview
+
+Project ini merupakan project data analyst dengan bahasa python menggunakan aplikasi Looker untuk mengevaluasi data dari bisnis e-commerce.
+
+### Data Sources
+
+#Dataset
+
+Data yang digunakan adalah data yang berasal dari Tokopedia (***bukan data sesungguhnya***). Mengenai penjelasan dataset adalah sebagai berikut:
+
+|variable                       |class     |description |
+|:------------------------------|:---------|:-----------|
+**order_detail:**
+id 			|object| angka unik dari order / id_order
+customer_id 		|object|angka unik dari pelanggan
+order_date 		|object| tanggal saat dilakukan transaksi
+sku_id 			|object| angka unik dari produk (sku adalah stock keeping unit)
+price			|int64| harga yang tertera pada tagging harga
+qty_ordered 		|int64| jumlah barang yang dibeli oleh pelanggan
+before_discount	|float64| nilai harga total dari produk (price * qty_ordered)
+discount_amount	|float64| nilai diskon product total
+after_discount		|float64| nilai harga total produk ketika sudah dikurangi dengan diskon
+is_gross 		|int64| menunjukkan pelanggan belum membayar pesanan
+is_valid		|int64| menunjukkan pelanggan sudah melakukan pembayaran
+is_net			|int64| menunjukkan transaksi sudah selesai
+payment_id 		|int64| angka unik dari metode pembayaran
+||
+**sku_detail:**
+id |object| angka unik dari produk (dapat digunakan untuk key saat join)
+sku_name 		|object| nama dari produk
+base_price		|float64| harga barang yang tertera pada tagging harga / price
+cogs 			|int64| cost of goods sold / total biaya untuk menjual 1 produk
+category		|object| kategori produk
+||
+**customer_detail:**
+id 			|object| angka unik dari pelanggan
+registered_date	|object| tanggal pelanggan mulai mendaftarkan diri sebagai anggota
+||
+**payment_detail:**
+id			|int64| angka unik dari metode pembayaran
+payment_method	|object| metode pembayaran yang digunakan
+
 
