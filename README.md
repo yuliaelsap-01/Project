@@ -147,4 +147,64 @@ from pandas.tseries.offsets import BDay -- untuk operasi tanggal berbasis hari k
 
 ```
 
+2. Menjalankan fungsi sql di colab
+```sql
 
+from sqlite3 import connect
+conn = connect(':memory:')
+df_od.to_sql('order_detail',conn, index=False, if_exists='replace')
+df_pd.to_sql('payment_detail', conn, index=False, if_exists='replace')
+df_sd.to_sql('sku_detail', conn, index=False, if_exists='replace')
+df_cd.to_sql('customer_detail', conn, index=False, if_exists='replace')
+
+```
+
+3. Menggabungkan data menjadi satu tabel
+```sql
+
+df = pd.read_sql("""
+SELECT
+    order_detail.*,
+    payment_detail.payment_method,
+    sku_detail.sku_name,
+    sku_detail.base_price,
+    sku_detail.cogs,
+    sku_detail.category,
+    customer_detail.registered_date
+FROM order_detail
+LEFT JOIN payment_detail
+    on payment_detail.id = order_detail.payment_id
+LEFT JOIN sku_detail
+    on sku_detail.id = order_detail.sku_id
+LEFT JOIN customer_detail
+    on customer_detail.id = order_detail.customer_id
+""", conn)
+
+```
+
+4. Mengubah tipe data agar mudah dilakukan pengolahan data
+```sql
+
+df = df.astype({"before_discount":'int', "discount_amount":'int', "after_discount":'int',"base_price":'int'})
+df.dtypes
+
+```
+
+5. Mengubah tipe kolom Date menjadi datetime
+```sql
+
+df['order_date']= pd.to_datetime(df['order_date'])
+df['registered_date']= pd.to_datetime(df['registered_date'])
+df.dtypes
+
+```
+
+### Exploratory Data Analysis
+
+
+
+- Which month had the highest transaction volume in 2021?
+- Which category had the highest transaction volume in 2022?
+- How do transaction volumes by category compare between 2021 and 2022?
+- What are the five most widely used payment methods?
+- What is the ranking of categories based on transaction value?
