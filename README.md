@@ -91,6 +91,12 @@ In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the s
 
 # [Project 2: E-Commerce data insights analysis using Python] (in Bahasa Indonesia)
 
+## Table of Contents
+
+- [Project Overview](#Project-Overview)
+- [Data Sources](#Data-Sources)
+- 
+
 ### Project Overview
 
 Project ini merupakan project data analyst dengan bahasa python menggunakan aplikasi Google Colab untuk mengevaluasi data dari bisnis e-commerce.
@@ -223,6 +229,10 @@ df.dtypes
 4. Berikut grafik hasil campaign rata-rata harian weekends vs rata-rata harian weekdays
    
 ![Jawaban Python 4 1](https://github.com/user-attachments/assets/e80c64d1-50c3-49bc-9963-d80f8cd1f6d0)
+
+### Recommendations
+
+
 
 
 
