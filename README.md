@@ -93,8 +93,8 @@ In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the s
 
 ## Table of Contents
 
-- [Project Overview](#Project-Overview)
-- [Data Sources](#Data-Sources)
+- [Project Overview](###Project-Overview)
+- [Data Sources](###Data-Sources)
 - 
 
 ### Project Overview
