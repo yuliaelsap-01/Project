@@ -230,9 +230,9 @@ df.dtypes
    
 ![Jawaban Python 4 1](https://github.com/user-attachments/assets/e80c64d1-50c3-49bc-9963-d80f8cd1f6d0)
 
-### Recommendations
 
 
+# [Project 3: SMART Manufacture - Predictive Maintenance Device ]
 
 
 
