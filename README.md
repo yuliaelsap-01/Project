@@ -14,6 +14,8 @@ This repository contains various past projects, including Data Analyst (SQL, Pyt
 
 ![Dashboard Data Analyst Page 1](https://github.com/user-attachments/assets/3aa8b2c1-2a65-42ea-babb-08772cf1821c)
 
+[Dashboard Data Analyst Page](https://lookerstudio.google.com/reporting/02aa84ab-697f-4269-bcce-a10d2cd9a2b6)
+
 This data analysis project utilized MySQL to evaluate data on e-commerce transactions from 2021 to 2022. The goal is to provide recommendations on marketing budget and business insights.
 
 ### Data Sources
