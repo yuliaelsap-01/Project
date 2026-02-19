@@ -95,12 +95,6 @@ In the SKU_detail table, several iPhone, MacBook, and Mac Mini products in the s
 
 # [Project 2: E-Commerce data insights analysis using Python] (in Bahasa Indonesia)
 
-## Table of Contents
-
-- [Project Overview](###Project-Overview)
-- [Data Sources](###Data-Sources)
-- 
-
 ### Project Overview
 
 Project ini merupakan project data analyst dengan bahasa python menggunakan aplikasi Google Colab untuk mengevaluasi data dari bisnis e-commerce.
@@ -237,6 +231,9 @@ df.dtypes
 
 
 # [Project 3: SMART Manufacture - Predictive Maintenance Device ]
+
+### Project Overview
+
 
 
 
