@@ -12,7 +12,9 @@ This repository contains various past projects, including Data Analyst (SQL, Pyt
 
 ### Project Overview
 
-![Dashboard Data Analyst Page 1](https://github.com/user-attachments/assets/3aa8b2c1-2a65-42ea-babb-08772cf1821c)
+![Portfolio_Dashboard_Github_Sales_E-Commerce_page-0001](https://github.com/user-attachments/assets/34a66723-febf-4d9f-abff-b2e555cf9eb4)
+
+
 
 [Dashboard Data Analyst Page](https://lookerstudio.google.com/reporting/02aa84ab-697f-4269-bcce-a10d2cd9a2b6)
 
@@ -66,8 +68,8 @@ SELECT * FROM case_1;
 ### Results/Findings
 
 
-![Quantity and Customer by Category](https://github.com/user-attachments/assets/2dfe357a-7917-4dba-ba7c-93d151065dfe)
-![Total Transactions by Payment Method](https://github.com/user-attachments/assets/2a73c511-5ccf-4aae-ae0c-b3196c151b7d)
+![Portfolio_Dashboard_Github_Sales_E-Commerce_page-0002](https://github.com/user-attachments/assets/d1938410-bb26-46d2-94d0-15c53469552d)
+
 
 
 The analysis results are summarized as follows:
