@@ -1,6 +1,6 @@
 # Portfolio
 
-This repository contains various past projects, including Data Analyst (SQL, Python), and Data Visualization.
+This repository contains various past projects, including Data Analyst (SQL, Python) and Data Visualization.
 
 # [Project 1: E-Commerce Sales Analysis using MySQL]
 
